@@ -5,6 +5,9 @@
 ### Overview
 Uses Python's pandas library and data from [this](https://github.com/CSSEGISandData/COVID-19) repository to graph interesting patterns in COVID-19 spread.
 
+### Sample Graphs
+![Top 5 Confirmed Countries](top_5_countries_confirmed.png "Top 5 Confirmed Countries")
+
 ### Requirments
 * Packages: pandas
 * CSV files from repo in overview
