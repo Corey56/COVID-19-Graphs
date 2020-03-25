@@ -3,13 +3,13 @@ Overview:
     Creates graphs from COVID-19 data
 Dependencies:
     packages: pandas, matplotlib 
-    data files: time_series_19-covid-Confirmed.csv
+    data files: time_series_covid19_confirmed_global.csv
 """
 
 import pandas as pd
 import matplotlib.pyplot as plt
 
-CONFIRMED_FILE_NAME = "time_series_19-covid-Confirmed.csv"
+CONFIRMED_FILE_NAME = "time_series_covid19_confirmed_global.csv"
 
 # Create dataframe from csv
 confirmed = pd.read_csv(CONFIRMED_FILE_NAME, parse_dates=True)

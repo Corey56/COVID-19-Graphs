@@ -9,10 +9,9 @@ import urllib.request
 URL = "https://raw.githubusercontent.com/CSSEGISandData/COVID-19/master/csse_co\
 vid_19_data/csse_covid_19_time_series/"
 
-# 3 Files to download from repo
-FILENAMES = ['time_series_19-covid-Confirmed.csv'
-             , 'time_series_19-covid-Deaths.csv'
-             , 'time_series_19-covid-Recovered.csv']
+# 2 Files to download from repo
+FILENAMES = ['time_series_covid19_confirmed_global.csv'
+             , 'time_series_covid19_deaths_global.csv']
 
 for fn in FILENAMES:
     print(f"Fetching File: {fn}", end='')
