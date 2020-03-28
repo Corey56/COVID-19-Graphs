@@ -20,3 +20,7 @@ Uses Python's pandas library and data from [this](https://github.com/CSSEGISandD
 * bar chart of total deaths
 * bar chart of death rates
 * move study to web app
+
+### Sources
+* https://github.com/CSSEGISandData/COVID-19
+* https://worldpopulationreview.com/countries/countries-by-density/
