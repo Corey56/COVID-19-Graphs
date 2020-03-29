@@ -13,12 +13,16 @@ Uses Python's pandas library and data from [this](https://github.com/CSSEGISandD
 * CSV files from repo in overview
 
 ### Future Work
+#### Graphs
 * line graph of confirmed sorted by biggest/smallest growth last 24 hours (slope)
 * line graph of confirmed by proportion of country's population
 * scatter plot to explore growth rate and population density
 * bar chart of biggest/smallest growth last 24 hours (slope)
 * bar chart of total deaths
 * bar chart of death rates
+* 'Over the Hill Ratio': Recovered vs Active
+
+#### Development
 * move study to web app
 
 ### Sources
