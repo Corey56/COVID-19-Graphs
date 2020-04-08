@@ -23,8 +23,8 @@ country.sort_values(by=country.iloc[:,-1].name, ascending=False, inplace=True)
 # Transpose to make Data the index vs country
 country = country.T
 
-# Line graph of Top 5 countries with most confirmed cases
-country.iloc[:, 0:5].plot()
+# Line graph of Top 5 countries with most confirmed cases begining 40 days in
+country.iloc[40:, 0:5].plot()
 plt.title('Top 5 Confirmed Countries')
 plt.savefig('top_5_countries_confirmed.png')
 plt.show()
